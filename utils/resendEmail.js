@@ -5,7 +5,7 @@
 // export async function sendRecruiterEmail(email, username, password) {
 //   try {
 //     await resend.emails.send({
-//       from: "MouldMakingTech <no-reply@fitnessfest.in>", 
+//       from: "MouldMakingTech <no-reply@toolingtrends.com>", 
 //       to: email,
 //       subject: "Your Supplier Account is Ready 🚀",
 //       html: `
@@ -33,7 +33,7 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 export async function sendRecruiterEmail(email, username, password) {
   try {
     await resend.emails.send({
-      from: "MouldMakingTech <no-reply@fitnessfest.in>",
+      from: "MouldMakingTech <no-reply@toolingtrends.com>",
       to: email,
       subject: "Your Supplier Account is Ready 🚀",
       html: `
