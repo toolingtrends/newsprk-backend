@@ -263,6 +263,7 @@ model SupplierDirectory {
   // ✅ PRODUCTS / SUPPLIES
   productSupplies Json?
   // ["Injection Molds", "Hot Runner Systems", "Tooling Design"]
+  isFeatured    Boolean  @default(false)
 
   status         DirectoryStatus @default(PENDING)
   isLiveEditable Boolean         @default(false)
